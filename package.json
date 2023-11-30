@@ -15,7 +15,6 @@
     "@types/react-dom": "18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.13.1",
     "@typescript-eslint/parser": "^6.13.1",
-    "clsx": "^2.0.0",
     "eslint": "^8.54.0",
     "eslint-config-next": "13.4.19",
     "eslint-config-prettier": "^9.0.0",
