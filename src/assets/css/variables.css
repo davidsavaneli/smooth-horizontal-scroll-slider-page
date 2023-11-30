@@ -1,0 +1,30 @@
+:root {
+  --vw: calc(100vw - var(--scrollbar-width));
+  --trDur: 0.3s;
+  --colorBlack: #231F20;
+  --colorBlack2: #000000;
+  --colorWhite: #ffffff;
+  --colorBrown: #AA853D;
+  --colorGray: #E2E2E2;
+  --colorGray2: #AFAFAF;
+  --colorGray3: #E9E9E9;
+  --colorLightGray: #FAFAFA;
+  --colorGreen: #35AD65;
+  --colorDarkGreen: #2d9958;
+  --colorLightGreen: #daffd6;
+  --colorPurple: #5C1FC2;
+  --colorError: #EF4D1D;
+  --colorSuccess: #A2D2A1;
+  --colorErrorTransparent: rgba(239, 78, 29, 0.1);
+
+  --colorToastDefault: #231F20;
+  --colorToastSuccess: #fff;
+  --colorToastError: #fff;
+  --colorToastWarning: #fff;
+  --colorToastInfo: #fff;
+  --colorToastBgDefault: #231F20;
+  --colorToastBgSuccess: #35AD65;
+  --colorToastBgError: #ED2114;
+  --colorToastBgWarning: #FFBB0B;
+  --colorToastBgInfo: #33b5e5;
+}

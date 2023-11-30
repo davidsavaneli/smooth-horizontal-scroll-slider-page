@@ -1,0 +1,34 @@
+.test {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.test :global(.next-image) {
+  position: relative !important;
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  object-position: center !important;
+  left: auto !important;
+  top: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  opacity: 0 !important;
+  transition: opacity var(--trDur), transform var(--trDur) !important;
+}
+
+.test :global(.next-image.loaded) {
+  opacity: 1 !important;
+}
+
+.test :global(.next-image.cover) {
+  object-fit: cover;
+  height: 100% !important;
+}
+
+.test :global(.next-image.contain) {
+  object-fit: contain;
+}

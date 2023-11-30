@@ -1,0 +1,57 @@
+@import 'normalize.css';
+@import 'fonts.css';
+@import 'grids.css';
+@import 'variables.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #000;
+  background-color: #fff;
+  font-family: "Arial" !important;
+  font-weight: 100 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  touch-action: manipulation;
+}
+
+body.disable-scroll {
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1 *,
+h2 *,
+h3 *,
+h4 *,
+h5 *,
+h6 * {
+  font-weight: normal !important;
+}
+
+.f-bold,
+.f-bold * {
+  font-weight: bold !important;
+}
+
+.f-upper {
+  text-transform: uppercase !important;
+  font-feature-settings: "case" on !important;
+  -moz-font-feature-settings: "case" !important;
+  -webkit-font-feature-settings: "case" !important;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}

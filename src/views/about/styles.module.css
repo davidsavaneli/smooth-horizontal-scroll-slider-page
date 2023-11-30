@@ -1,0 +1,52 @@
+.boxes {
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  .box {
+    position: sticky;
+    top: 0;
+    width: 100% !important;
+    min-width: 100% !important;
+    box-sizing: border-box;
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .innerBox {
+    box-sizing: border-box;
+    display: flex;
+    width: auto;
+  }
+  
+  .inner {
+    box-sizing: border-box;
+    width: 100vw !important;
+    min-width: 100vw !important;
+    height: 50vh;
+    background-color: #eee;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 30px;
+  }
+  
+  .test {
+    width: 20vw;
+    height: 20vw;
+    border: 2px solid green;
+    margin: 0 auto;
+  }
+  
+  .slideItem {
+    opacity: 0;
+    transform: translateY(200px);
+    transition: transform 1.4s cubic-bezier(0.17, 0.55, 0.55, 1), opacity 1.4s;
+  }
+  
+  .slideItem.inView {
+    opacity: 1;
+    transform: translateY(0);
+  }
