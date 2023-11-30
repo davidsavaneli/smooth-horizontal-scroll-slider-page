@@ -1,5 +1,4 @@
 @import 'normalize.css';
-@import 'fonts.css';
 @import 'grids.css';
 @import 'variables.css';
 
@@ -42,9 +41,6 @@ h6 * {
 
 .f-upper {
   text-transform: uppercase !important;
-  font-feature-settings: "case" on !important;
-  -moz-font-feature-settings: "case" !important;
-  -webkit-font-feature-settings: "case" !important;
 }
 
 ul {
