@@ -1,22 +1,17 @@
-import React, { memo } from "react";
-import { motion } from "framer-motion";
-import animations from "./animations";
+import React, { memo } from 'react'
+import { motion } from 'framer-motion'
+import animations from './animations'
 
 export type AnimationLayoutProps = {
-  children: React.ReactNode;
-};
+  children: React.ReactNode
+}
 
 const AnimationLayout = ({ children }: AnimationLayoutProps) => {
   return (
-    <motion.div
-      variants={animations.layout}
-      initial="hidden"
-      animate="enter"
-      exit="exit"
-    >
+    <motion.div variants={animations.layout} initial='hidden' animate='enter' exit='exit'>
       {children}
     </motion.div>
-  );
-};
+  )
+}
 
-export default memo<AnimationLayoutProps>(AnimationLayout);
+export default memo<AnimationLayoutProps>(AnimationLayout)
