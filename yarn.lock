@@ -2179,10 +2179,10 @@ slash@^3.0.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
   integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
 
-smooth-horizontal-scroll-slider@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/smooth-horizontal-scroll-slider/-/smooth-horizontal-scroll-slider-0.1.0.tgz#ed5815101ac0fea9fe6501c6435e8415209b135f"
-  integrity sha512-tQb35Snl10BpZCnOVuFnOyjqY80dGjgk8wL2bUNIMoUv8ZcTACUL3hjmm0NbMvXmGXW1EMbJ7Y5ax0JXyIxiHw==
+smooth-horizontal-scroll-slider@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/smooth-horizontal-scroll-slider/-/smooth-horizontal-scroll-slider-0.1.2.tgz#89fb2d88a0e285ba00bb40b5c6850ce7ad595684"
+  integrity sha512-RzYXASNh8l+zcCQ7y+ae+PrY8xCyn5D9ySgrEl2gOnrHyEMm/s9UtSagl/pprtlo/i0zNG0Bi0CHiiZF5FKrOw==
   dependencies:
     framer-motion "^10.16.5"
     react "^18.2.0"
