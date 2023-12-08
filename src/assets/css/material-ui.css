@@ -1,0 +1,9 @@
+.MuiBackdrop-root {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.MuiModal-root {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
