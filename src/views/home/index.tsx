@@ -1,15 +1,15 @@
 import React from 'react'
-import { SliderContainer, SliderWrapper, SliderItem } from 'smooth-horizontal-scroll-slider'
+import { Shss, ShssWrapper, ShssSlide } from 'smooth-horizontal-scroll-slider'
 
 const View = () => {
   return (
-    <SliderContainer speed={2} progressBar={{ show: true, position: 'bottom' }}>
-      <SliderWrapper direction='ltr' items={{ fullWidth: true, fullHeight: true }}>
-        <SliderItem>1</SliderItem>
-        <SliderItem>2</SliderItem>
-        <SliderItem>3</SliderItem>
-      </SliderWrapper>
-    </SliderContainer>
+    <Shss speed={2} progressBar={{ show: true }}>
+      <ShssWrapper direction='ltr'>
+        <ShssSlide>1</ShssSlide>
+        <ShssSlide>2</ShssSlide>
+        <ShssSlide>3</ShssSlide>
+      </ShssWrapper>
+    </Shss>
   )
 }
 
