@@ -30,19 +30,19 @@ const MenuModal = ({ open, handleClose }: MenuModalProps) => {
           </div>
         </div>
         <div className={styles.menuItems}>
-          <Link href={'https://github.com/'} className={styles.menuItem}>
+          <Link href={'examples/general'} className={styles.menuItem}>
             General
           </Link>
-          <Link href={'https://github.com/'} className={styles.menuItem}>
+          <Link href={'examples/speed'} className={styles.menuItem}>
             Speed
           </Link>
-          <Link href={'https://github.com/'} className={styles.menuItem}>
+          <Link href={'examples/progress-bar'} className={styles.menuItem}>
             Progress Bar
           </Link>
-          <Link href={'https://github.com/'} className={styles.menuItem}>
+          <Link href={'examples/direction'} className={styles.menuItem}>
             Direction
           </Link>
-          <Link href={'https://github.com/'} className={styles.menuItem}>
+          <Link href={'examples/slides'} className={styles.menuItem}>
             Slides
           </Link>
         </div>
