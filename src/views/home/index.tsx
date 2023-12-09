@@ -1,13 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Link from 'next/link'
-import { MenuModal } from 'components'
 import styles from './styles.module.css'
 
 const View = () => {
-  const [open, setOpen] = useState(false)
-  const handleOpen = () => setOpen(true)
-  const handleClose = () => setOpen(false)
-
   return (
     <div className={styles.wrapper}>
       <h1 className={styles.mainTitle}>Smooth Horizontal Scroll Slider</h1>
@@ -48,10 +43,6 @@ const View = () => {
           </div>
         </Link>
       </div>
-      <div className={styles.examplesButton} onClick={handleOpen}>
-        Examples
-      </div>
-      <MenuModal open={open} handleClose={handleClose} />
     </div>
   )
 }

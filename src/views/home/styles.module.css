@@ -62,18 +62,3 @@
     width: 100% !important;
     height: 100% !important;
 }
-
-.examplesButton {
-    font-size: 30px;
-    color: #fff;
-    text-decoration: underline;
-    margin-top: 100px;
-    padding: 10px 15px;
-    cursor: pointer;
-}
-
-@media (hover: hover) {
-    .examplesButton:hover {
-      text-decoration: none;
-    }
-  }
