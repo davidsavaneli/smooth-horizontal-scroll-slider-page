@@ -50,3 +50,15 @@ ul {
 li {
   list-style-type: none;
 }
+
+/* smooth-horizontal-scroll-slider styles */
+
+.Shss-slide-item {
+  background-color: transparent !important;
+  border: 0 !important;
+}
+
+.Shss-progress-bar {
+  background: #0a97eb !important;
+  background: linear-gradient(135deg, #0a97eb, #0bd6e9) !important;
+}
