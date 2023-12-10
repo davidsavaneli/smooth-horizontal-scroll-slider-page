@@ -1,0 +1,25 @@
+.highlighterWrapper {
+  position: relative;
+  height: 100%;
+}
+
+.highlighterWrapper > pre {
+  padding: 15px 30px 30px 30px !important;
+  font-size: 14px !important;
+  overflow: auto !important;
+  height: 100%;
+}
+
+.highlighterWrapper span,
+.highlighterWrapper a {
+  display: inherit;
+}
+
+.highlighterWrapper > pre * {
+  font-family: monospace !important;
+}
+
+.highlighterWrapper ::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}

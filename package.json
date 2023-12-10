@@ -16,6 +16,7 @@
     "@types/node": "20.6.0",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
+    "@types/react-syntax-highlighter": "^15.5.0",
     "@typescript-eslint/eslint-plugin": "^6.13.1",
     "@typescript-eslint/parser": "^6.13.1",
     "clsx": "^2.0.0",
@@ -29,6 +30,7 @@
     "prettier": "^3.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-syntax-highlighter": "^15.5.0",
     "smooth-horizontal-scroll-slider": "^0.1.12",
     "typescript": "5.2.2"
   }
