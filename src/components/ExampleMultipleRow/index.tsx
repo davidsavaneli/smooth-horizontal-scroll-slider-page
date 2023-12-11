@@ -18,8 +18,8 @@ import { Shss, ShssWrapper, ShssSlide } from 'smooth-horizontal-scroll-slider'
 
 const MyComponent = () => {
   return (
-    <Shss progressBar={{ show: false }}>
-      <ShssWrapper>
+    <Shss progressBar={{ show: false }} speed={2}>
+      <ShssWrapper direction='ltr' slides={{ fullWidth: false, fullHeight: false, gap: 20 }}>
         <ShssSlide>
           <div className='your-custom-class'>Slide One</div>
         </ShssSlide>
@@ -28,6 +28,29 @@ const MyComponent = () => {
         </ShssSlide>
         <ShssSlide>
           <div className='your-custom-class'>Slide Three</div>
+        </ShssSlide>
+        <ShssSlide>
+          <div className='your-custom-class'>Slide Four</div>
+        </ShssSlide>
+        <ShssSlide>
+          <div className='your-custom-class'>Slide Five</div>
+        </ShssSlide>
+      </ShssWrapper>
+      <ShssWrapper direction='rtl' slides={{ fullWidth: false, fullHeight: false, gap: 20 }}>
+        <ShssSlide>
+          <div className='your-custom-class'>Slide Ten</div>
+        </ShssSlide>
+        <ShssSlide>
+          <div className='your-custom-class'>Slide Nine</div>
+        </ShssSlide>
+        <ShssSlide>
+          <div className='your-custom-class'>Slide Eight</div>
+        </ShssSlide>
+        <ShssSlide>
+          <div className='your-custom-class'>Slide Seven</div>
+        </ShssSlide>
+        <ShssSlide>
+          <div className='your-custom-class'>Slide Six</div>
         </ShssSlide>
       </ShssWrapper>
     </Shss>
