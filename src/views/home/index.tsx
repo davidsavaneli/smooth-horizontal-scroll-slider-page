@@ -1,5 +1,5 @@
 import React from 'react'
-import { Welcome, ExampleGeneral, ExampleAutoSize, ExampleDirection } from 'components'
+import { Welcome, ExampleGeneral, ExampleAutoSize, ExampleDirection, ExampleMultipleRow } from 'components'
 import styles from './styles.module.css'
 
 const View = () => {
@@ -9,6 +9,7 @@ const View = () => {
       <ExampleGeneral />
       <ExampleAutoSize />
       <ExampleDirection />
+      <ExampleMultipleRow />
     </div>
   )
 }

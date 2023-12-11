@@ -1,0 +1,36 @@
+.slide {
+  width: 35vw;
+  height: 50vh;
+  height: calc(var(--vh, 1vh) * 50 - 30px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  color: #fff;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.slide.one {
+  background-color: #0A97EB;
+}
+
+.slide.two {
+  background-color: #00B6F2;
+}
+
+.slide.three {
+  background-color: #00D0DC;
+}
+
+.slide.four {
+  background-color: red;
+}
+
+.slide.five {
+  background-color: blue;
+}
+
+.slide.six {
+  background-color: green;
+}
