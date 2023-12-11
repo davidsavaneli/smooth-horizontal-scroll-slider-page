@@ -4,12 +4,12 @@ import { Shss, ShssWrapper, ShssSlide } from 'smooth-horizontal-scroll-slider'
 import { ExampleDescriptionLayout, HighligherLayout } from 'components'
 import styles from './styles.module.css'
 
-const ExampleGeneral = () => {
+const ExampleDirection = () => {
   return (
     <div>
       <div className='row no-gutters'>
         <div className='col-6'>
-          <ExampleDescriptionLayout title='General' />
+          <ExampleDescriptionLayout title='Direction' />
         </div>
         <div className='col-6'>
           <HighligherLayout>
@@ -18,8 +18,8 @@ import { Shss, ShssWrapper, ShssSlide } from 'smooth-horizontal-scroll-slider'
 
 const MyComponent = () => {
   return (
-    <Shss>
-      <ShssWrapper>
+    <Shss progressBar={{ show: false }}>
+      <ShssWrapper direction='rtl'>
         <ShssSlide>
           <div className='your-custom-class'>Slide One</div>
         </ShssSlide>
@@ -39,8 +39,8 @@ export default MyComponent;
           </HighligherLayout>
         </div>
       </div>
-      <Shss>
-        <ShssWrapper>
+      <Shss progressBar={{ show: false }}>
+        <ShssWrapper direction='rtl'>
           <ShssSlide>
             <div className={clsx(styles.slide, styles.one)}>Slide One</div>
           </ShssSlide>
@@ -56,4 +56,4 @@ export default MyComponent;
   )
 }
 
-export default memo(ExampleGeneral)
+export default memo(ExampleDirection)

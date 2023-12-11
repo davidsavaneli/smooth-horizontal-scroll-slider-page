@@ -9,3 +9,5 @@ export { default as HighligherLayout } from './HighligherLayout'
 export { default as Welcome } from './Welcome'
 
 export { default as ExampleGeneral } from './ExampleGeneral'
+export { default as ExampleAutoSize } from './ExampleAutoSize'
+export { default as ExampleDirection } from './ExampleDirection'

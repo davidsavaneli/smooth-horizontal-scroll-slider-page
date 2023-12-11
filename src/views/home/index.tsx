@@ -1,5 +1,5 @@
 import React from 'react'
-import { Welcome, ExampleGeneral } from 'components'
+import { Welcome, ExampleGeneral, ExampleAutoSize, ExampleDirection } from 'components'
 import styles from './styles.module.css'
 
 const View = () => {
@@ -7,6 +7,8 @@ const View = () => {
     <div className={styles.app}>
       <Welcome />
       <ExampleGeneral />
+      <ExampleAutoSize />
+      <ExampleDirection />
     </div>
   )
 }
