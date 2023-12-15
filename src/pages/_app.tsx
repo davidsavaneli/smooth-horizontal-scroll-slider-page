@@ -11,7 +11,19 @@ const App = ({ Component, router, pageProps }: AppProps) => {
     setWindowHeight()
     window.addEventListener('resize', setWindowHeight)
 
-    return () => window.removeEventListener('resize', setWindowHeight)
+    const setScrollBarWidth = () => {
+      document.documentElement.style.setProperty(
+        '--sbw',
+        window.innerWidth - document.documentElement.clientWidth + 'px',
+      )
+    }
+    setScrollBarWidth()
+    window.addEventListener('resize', setScrollBarWidth)
+
+    return () => {
+      window.removeEventListener('resize', setWindowHeight)
+      window.removeEventListener('resize', setScrollBarWidth)
+    }
   })
 
   if (router.route === '/404' || router.route === '/500') return <Component {...pageProps} />

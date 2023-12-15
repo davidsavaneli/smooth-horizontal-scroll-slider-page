@@ -2740,10 +2740,10 @@ slash@^3.0.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
   integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
 
-smooth-horizontal-scroll-slider@^0.1.12:
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/smooth-horizontal-scroll-slider/-/smooth-horizontal-scroll-slider-0.1.12.tgz#3e439929086d2d38c900ff06887e0e356a15df28"
-  integrity sha512-MWNEGlPj4TfLkwmAIvz1yT1Somyt3MLRn5IGQP3Q5JjmnLmWd6vReJEsBtzTOOzXzCvv+iQMuAIy/z8d8Gpk8w==
+smooth-horizontal-scroll-slider@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/smooth-horizontal-scroll-slider/-/smooth-horizontal-scroll-slider-1.0.0.tgz#6b0c6bb130fab75c582d9dde20dc26153f0be1e8"
+  integrity sha512-bF1PWEENLqi5+kc5517qgGguU5hTYZ9TGHFnCu4pZyh1uXQhUZhLqZWs7/uN2/NI46nc1FDRUorKCsUvOrHDOw==
   dependencies:
     clsx "^2.0.0"
     framer-motion "^10.16.5"

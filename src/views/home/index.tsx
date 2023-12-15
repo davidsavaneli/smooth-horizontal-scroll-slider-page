@@ -1,15 +1,12 @@
 import React from 'react'
-import { Welcome, ExampleGeneral, ExampleAutoSize, ExampleDirection, ExampleMultipleRow } from 'components'
+import { Welcome, Example } from 'components'
 import styles from './styles.module.css'
 
 const View = () => {
   return (
     <div className={styles.app}>
       <Welcome />
-      <ExampleGeneral />
-      <ExampleAutoSize />
-      <ExampleDirection />
-      <ExampleMultipleRow />
+      <Example />
     </div>
   )
 }
