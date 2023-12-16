@@ -19,90 +19,198 @@ import { Shss, ShssWrapper, ShssSlide } from 'smooth-horizontal-scroll-slider'
 const MyComponent = () => {
   return (
     <Shss speed={2}>
-      <ShssWrapper direction='ltr'>
+      <ShssWrapper>
         <ShssSlide>
-          <div className='your-custom-class'>Slide One</div>
+          <div className='your-custom-class'>Slide content here ...</div>
         </ShssSlide>
         <ShssSlide>
-          <div className='your-custom-class'>Slide Two</div>
+          <div className='your-custom-class'>Slide content here ...</div>
         </ShssSlide>
-        <ShssSlide>
-          <div className='your-custom-class'>Slide Three</div>
-        </ShssSlide>
-        <ShssSlide>
-          <div className='your-custom-class'>Slide Four</div>
-        </ShssSlide>
-        <ShssSlide>
-          <div className='your-custom-class'>Slide Five</div>
-        </ShssSlide>
+        ...
+
       </ShssWrapper>
       <ShssWrapper direction='rtl'>
         <ShssSlide>
-          <div className='your-custom-class'>Slide Ten</div>
+          <div className='your-custom-class'>Slide content here ...</div>
         </ShssSlide>
         <ShssSlide>
-          <div className='your-custom-class'>Slide Nine</div>
+          <div className='your-custom-class'>Slide content here ...</div>
         </ShssSlide>
-        <ShssSlide>
-          <div className='your-custom-class'>Slide Eight</div>
-        </ShssSlide>
-        <ShssSlide>
-          <div className='your-custom-class'>Slide Seven</div>
-        </ShssSlide>
-        <ShssSlide>
-          <div className='your-custom-class'>Slide Six</div>
-        </ShssSlide>
+        ...
+
       </ShssWrapper>
     </Shss>
   );
 };
 
 export default MyComponent;
-
-
-// CSS
-
-.your-custom-class {
-  width: 1200px;
-  height: 50vh;
-}
 `}
           </HighligherLayout>
         </div>
       </div>
       <Shss speed={2}>
-        <ShssWrapper direction='ltr'>
+        <ShssWrapper>
           <ShssSlide>
-            <div className={clsx(styles.slide, styles.one)}>Slide One</div>
+            <div className={clsx(styles.slide)}>
+              <div
+                className={styles.slideInner}
+                style={{
+                  background: 'linear-gradient(90deg, hsla(307, 93%, 84%, 1) 0%, hsla(256, 96%, 44%, 1) 100%)',
+                }}
+              ></div>
+            </div>
           </ShssSlide>
           <ShssSlide>
-            <div className={clsx(styles.slide, styles.two)}>Slide Two</div>
+            <div className={clsx(styles.slide)}>
+              <div
+                className={styles.slideInner}
+                style={{
+                  background: 'linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%)',
+                }}
+              ></div>
+            </div>
           </ShssSlide>
           <ShssSlide>
-            <div className={clsx(styles.slide, styles.three)}>Slide Three</div>
+            <div className={clsx(styles.slide)}>
+              <div
+                className={styles.slideInner}
+                style={{
+                  background: 'linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%)',
+                }}
+              ></div>
+            </div>
           </ShssSlide>
           <ShssSlide>
-            <div className={clsx(styles.slide, styles.four)}>Slide Four</div>
+            <div className={clsx(styles.slide)}>
+              <div
+                className={styles.slideInner}
+                style={{
+                  background: 'linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%)',
+                }}
+              ></div>
+            </div>
           </ShssSlide>
           <ShssSlide>
-            <div className={clsx(styles.slide, styles.five)}>Slide Five</div>
+            <div className={clsx(styles.slide)}>
+              <div
+                className={styles.slideInner}
+                style={{
+                  background: 'linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%)',
+                }}
+              ></div>
+            </div>
+          </ShssSlide>
+          <ShssSlide>
+            <div className={clsx(styles.slide)}>
+              <div
+                className={styles.slideInner}
+                style={{
+                  background: 'linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%)',
+                }}
+              ></div>
+            </div>
+          </ShssSlide>
+          <ShssSlide>
+            <div className={clsx(styles.slide)}>
+              <div
+                className={styles.slideInner}
+                style={{
+                  background: 'linear-gradient(90deg, hsla(238, 100%, 71%, 1) 0%, hsla(295, 100%, 84%, 1) 100%)',
+                }}
+              ></div>
+            </div>
+          </ShssSlide>
+          <ShssSlide>
+            <div className={clsx(styles.slide)}>
+              <div
+                className={styles.slideInner}
+                style={{
+                  background: 'linear-gradient(90deg, hsla(94, 100%, 70%, 1) 0%, hsla(0, 100%, 77%, 1) 100%)',
+                }}
+              ></div>
+            </div>
           </ShssSlide>
         </ShssWrapper>
         <ShssWrapper direction='rtl'>
           <ShssSlide>
-            <div className={clsx(styles.slide, styles.ten)}>Slide Ten</div>
+            <div className={clsx(styles.slide)}>
+              <div
+                className={styles.slideInner}
+                style={{
+                  background: 'linear-gradient(90deg, hsla(239, 100%, 67%, 1) 0%, hsla(187, 100%, 89%, 1) 100%)',
+                }}
+              ></div>
+            </div>
           </ShssSlide>
           <ShssSlide>
-            <div className={clsx(styles.slide, styles.nine)}>Slide Nine</div>
+            <div className={clsx(styles.slide)}>
+              <div
+                className={styles.slideInner}
+                style={{
+                  background: 'linear-gradient(90deg, hsla(16, 100%, 76%, 1) 0%, hsla(49, 100%, 81%, 1) 100%)',
+                }}
+              ></div>
+            </div>
           </ShssSlide>
           <ShssSlide>
-            <div className={clsx(styles.slide, styles.eight)}>Slide Eight</div>
+            <div className={clsx(styles.slide)}>
+              <div
+                className={styles.slideInner}
+                style={{
+                  background: 'linear-gradient(90deg, hsla(57, 100%, 48%, 1) 0%, hsla(204, 84%, 66%, 1) 100%)',
+                }}
+              ></div>
+            </div>
           </ShssSlide>
           <ShssSlide>
-            <div className={clsx(styles.slide, styles.seven)}>Slide Seven</div>
+            <div className={clsx(styles.slide)}>
+              <div
+                className={styles.slideInner}
+                style={{
+                  background: 'linear-gradient(90deg, hsla(302, 82%, 76%, 1) 0%, hsla(258, 40%, 68%, 1) 100%)',
+                }}
+              ></div>
+            </div>
           </ShssSlide>
           <ShssSlide>
-            <div className={clsx(styles.slide, styles.six)}>Slide Six</div>
+            <div className={clsx(styles.slide)}>
+              <div
+                className={styles.slideInner}
+                style={{
+                  background: 'linear-gradient(90deg, hsla(29, 92%, 70%, 1) 0%, hsla(0, 87%, 73%, 1) 100%)',
+                }}
+              ></div>
+            </div>
+          </ShssSlide>
+          <ShssSlide>
+            <div className={clsx(styles.slide)}>
+              <div
+                className={styles.slideInner}
+                style={{
+                  background: 'linear-gradient(90deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%)',
+                }}
+              ></div>
+            </div>
+          </ShssSlide>
+          <ShssSlide>
+            <div className={clsx(styles.slide)}>
+              <div
+                className={styles.slideInner}
+                style={{
+                  background: 'linear-gradient(90deg, hsla(40, 94%, 74%, 1) 0%, hsla(60, 89%, 72%, 1) 100%)',
+                }}
+              ></div>
+            </div>
+          </ShssSlide>
+          <ShssSlide>
+            <div className={clsx(styles.slide)}>
+              <div
+                className={styles.slideInner}
+                style={{
+                  background: 'linear-gradient(90deg, hsla(265, 53%, 29%, 1) 0%, hsla(24, 93%, 73%, 1) 100%)',
+                }}
+              ></div>
+            </div>
           </ShssSlide>
         </ShssWrapper>
       </Shss>
